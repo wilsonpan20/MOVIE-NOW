@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './services/firebase'
 import App from './App';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'video-react/dist/video-react.css';
+import './services/firebase';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -11,5 +11,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-
