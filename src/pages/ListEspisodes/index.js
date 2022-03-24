@@ -45,9 +45,9 @@ function ListMovies(props) {
           {episodes.length > 0 ? (
             episodes.map((ep) => (
               <li key={ep?.id}>
-                <p>{ep.name}</p>{' '}
+                <p>{ep?.name}</p>{' '}
                 <StyledButton
-                  onClick={() => watchEpisode(ep.id, ep.name, ep.url_movie)}
+                  onClick={() => watchEpisode(ep?.id, ep?.name, ep?.url_movie)}
                 >
                   Watch Now
                 </StyledButton>

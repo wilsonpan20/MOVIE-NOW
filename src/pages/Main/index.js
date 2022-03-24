@@ -52,11 +52,11 @@ function Main(props) {
                 onClick={() => goListEpisodes(movie?.id, movie?.name)}
               />
               <StyledCardBody>
-                <StyledCard.Title>{movie.name}</StyledCard.Title>
+                <StyledCard.Title>{movie?.name}</StyledCard.Title>
                 <StyledCardText>{movie.description}</StyledCardText>
                 <StyledButton
                   variant="outline-dark"
-                  onClick={() => goListEpisodes(movie.id, movie.name)}
+                  onClick={() => goListEpisodes(movie?.id, movie?.name)}
                 >
                   Watch now
                 </StyledButton>
